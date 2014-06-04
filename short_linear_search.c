@@ -5,5 +5,7 @@ int *linear_search(int *arr,int search){
 }
 void main(){
     int arr[10]={15,92,43,4,25,67,37,28,99};
-    printf("%d",linear_search(arr,28));    
+    int search_number=0;
+    scanf("%d",&search_number);
+    printf("%d",linear_search(arr,search_number));
 }
