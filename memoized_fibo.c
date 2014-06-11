@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include<stdlib.h>
-#define MAX 20
+#define MAX 21
 #define NIL -1
 
 int array[MAX];
